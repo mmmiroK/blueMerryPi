@@ -1,4 +1,3 @@
-/* Created by Administrator on 2016-08-13.*/
 lmapp.controller('jamDetails',function($scope,imgscroll,contWH,picPreview){
     //获取数据
     $.getJSON("json/jamDetails.json",function(data){

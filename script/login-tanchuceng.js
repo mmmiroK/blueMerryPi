@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-07-18.
- */
 $(function(){
     var loginMengban=$(".login-mengban").get(0);
     var loginBox= $(".login-box");

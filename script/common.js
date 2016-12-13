@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-08-19.
- */
 //” œ‰≈–∂œ
 function testEmail(email) {
     var a = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-z][a-z.]{2,8}$/;

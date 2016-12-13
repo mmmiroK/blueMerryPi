@@ -5,7 +5,7 @@ lmapp.controller('tsdCtrl',function($scope,$routeParams){
         $scope.pingfen =function(e){
             var t1 = e.target.getAttribute('data');
             $scope.fenshu = t1;
-        }
+        };
         $scope.titleflag = true;
         // 回复框的angular控制
         $scope.secshow1 = false;

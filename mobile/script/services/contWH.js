@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-08-18.
- */
 lmapp.service("contWH",function(){
     this.contWidthHeight=function(pic,cont,hasPic){
         $(function(){

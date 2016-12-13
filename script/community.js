@@ -5,4 +5,4 @@ $(function(){
         $(this).find(".sq-list").toggleClass('on');
         $(this).siblings().find(".sq-list").removeClass('on');
     })
-})
+});

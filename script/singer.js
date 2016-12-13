@@ -1,10 +1,4 @@
-/**
- * @Author:      geekarl
- * @DateTime:    2016-07-21 23:43:21
- * @Description: 明天写关于专辑和歌曲列表切换的js事件
- */
-
- $(function(){
+$(function(){
     // 专辑和歌曲页的切换显示
     $(".tab-zj a").on("click",function(){
         console.log('123');

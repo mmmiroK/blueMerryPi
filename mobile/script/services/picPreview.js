@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-08-18.
- */
 lmapp.service("picPreview",function(){
     this.picPreview=function(docObj,imgObjPreview){
         //图片上传预览功能
