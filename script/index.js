@@ -1,10 +1,5 @@
-/**
- * Created by Administrator on 2016-07-18.
- */
 $(function(){
-
     //主页各轮播图
-
     var mySwiper1 = new Swiper('#swiper-container1', {
         pagination: '.swiper-pagination',              //分页器
         autoplay: 2000,                                           //自动轮播
@@ -23,42 +18,38 @@ $(function(){
         });
         mySwiper2.params.autoplay = false;
     }
-    otherLunbo("#swiper-container2");
-    otherLunbo("#swiper-container3");
-    otherLunbo("#swiper-container4");
-    otherLunbo("#swiper-container5");
 
-    //var mySwiper2 = new Swiper('#swiper-container2', {
-    //    pagination: '.swiper-pagination',
-    //    loop: true,
-    //    noSwiping: true,
-    //    autoplayDisableOnInteraction: false
-    //});
-    //mySwiper2.params.autoplay = false;
-    //
-    //var mySwiper3 = new Swiper('#swiper-container3', {
-    //    pagination: '.swiper-pagination',
-    //    loop: true,
-    //    noSwiping: true,
-    //    autoplayDisableOnInteraction: false
-    //});
-    //mySwiper3.params.autoplay = false;
-    //
-    //var mySwiper4 = new Swiper('#swiper-container4', {
-    //    pagination: '.swiper-pagination',
-    //    loop: true,
-    //    noSwiping: true,
-    //    autoplayDisableOnInteraction: false
-    //});
-    //mySwiper4.params.autoplay = false;
-    //
-    //var mySwiper5 = new Swiper('#swiper-container5', {
-    //    pagination: '.swiper-pagination',
-    //    loop: true,
-    //    noSwiping: true,
-    //    autoplayDisableOnInteraction: false
-    //});
-    //mySwiper5.params.autoplay = false;
+    var mySwiper2 = new Swiper('#swiper-container2', {
+       pagination: '.swiper-pagination',
+       loop: true,
+       noSwiping: true,
+       autoplayDisableOnInteraction: false
+    });
+    mySwiper2.params.autoplay = false;
+
+    var mySwiper3 = new Swiper('#swiper-container3', {
+       pagination: '.swiper-pagination',
+       loop: true,
+       noSwiping: true,
+       autoplayDisableOnInteraction: false
+    });
+    mySwiper3.params.autoplay = false;
+
+    var mySwiper4 = new Swiper('#swiper-container4', {
+       pagination: '.swiper-pagination',
+       loop: true,
+       noSwiping: true,
+       autoplayDisableOnInteraction: false
+    });
+    mySwiper4.params.autoplay = false;
+
+    var mySwiper5 = new Swiper('#swiper-container5', {
+       pagination: '.swiper-pagination',
+       loop: true,
+       noSwiping: true,
+       autoplayDisableOnInteraction: false
+    });
+    mySwiper5.params.autoplay = false;
 
     //页面数据适配
 

@@ -580,12 +580,10 @@
     height:97px;
     background:rgba(0,0,0,0.5);
     padding:20px;
-    /*display:none;*/
     margin-left:-280px;
     transition:all 0.4s;
 }
 .p-yj .note a:hover .note-desc{
-    /*display:block;*/
     margin-left:0;
 }
 .p-yj .note a .note-desc .note-desc-cont{
