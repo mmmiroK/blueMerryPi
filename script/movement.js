@@ -103,7 +103,6 @@ $(function(){
 
     //数据获取
     $.getJSON("json/movement.json",function(data){
-        console.log(data);
         if(data){
             //音乐模块 start
             $("#song_title").html(data.song_module.song_title);
