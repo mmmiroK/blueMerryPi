@@ -1,5 +1,4 @@
 /*  入口文件 main*/
-
 require.config({
     baseUrl: "script/",
     paths: {

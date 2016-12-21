@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016-08-12.
- */
 $(function(){
     //调用
     //    setImagePreview方法参数为(上传的input-id,预览窗口的id)    切记为id
@@ -20,7 +17,6 @@ $(function(){
             imgObjPreview.style.width = '100px';
             imgObjPreview.style.height = '100px';
 //            imgObjPreview.src = docObj.files[0].getAsDataURL();
-
             //火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
             imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
         }

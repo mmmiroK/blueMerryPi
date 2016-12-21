@@ -38,24 +38,24 @@ lmapp.controller('tsCtrl',function($scope,scroll){
             ]
         };
 
-    $(function(){
-
-        $.ajax({
-            type:"get",
-            url:"https://iwen.wiki/zhichenshop/shopping/bannerView/bannerview.php",
-            dataType:"json",
-            success:function(data){
-                bannerAdapter(data);
-            }
-        });
-
-        function bannerAdapter(data){
-            $(data.shoplistimg).each(function(index){
-                $(".shop").append("<li><a><img src='"+data.shoplistimg[index]+"'><span class='desc'><span class='title'>"+data.shoplisttitle[index]+"</span><i class='money'>￥"+data.shoplistmoney[index]+"</i><span class='buy'>立即购买</span></a><>");
-            })
-        }
-
-    });
+    // $(function(){
+    //     $.ajax({
+    //         type:"get",
+    //         url:"http://iwen.wiki/zhichenshop/shopping/bannerView/bannerview.php",
+    //         dataType:"json",
+    //         success:function(data){
+    //             bannerAdapter(data);
+    //         }
+    //     });
+    //
+    //     function bannerAdapter(data){
+    //         console.log(data);
+    //         $(data.shoplistimg).each(function(index){
+    //             $(".shop").append("<li><a><img src='"+data.shoplistimg[index]+"'><span class='desc'><span class='title'>"+data.shoplisttitle[index]+"</span><i class='money'>￥"+data.shoplistmoney[index]+"</i><span class='buy'>立即购买</span></a></li>");
+    //         })
+    //     }
+    //
+    // });
 
 
 });
