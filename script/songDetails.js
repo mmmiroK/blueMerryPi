@@ -4,7 +4,7 @@ $(function(){
         $(".xq-albumtext").toggleClass('on');
         $('.text-up').toggle();
         $('.text-down').toggle();
-    })
+    });
     //动态评分效果
     $(".xq-sharepf b").on("mouseover",function(){
         var n=$(this).index(".xq-sharepf b");
@@ -54,4 +54,4 @@ $(function(){
             }); 
         }); 
     })
-})
+});

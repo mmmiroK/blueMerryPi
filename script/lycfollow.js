@@ -145,4 +145,4 @@ Selected.prototype = {
         });
         lyricContainer.appendChild(fragment); //用碎片容器减少重绘；
     }
-}
+};

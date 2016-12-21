@@ -3,7 +3,7 @@ $(function(){
     $(".repeat-nav a").on("click",function(){
         $(this).addClass('on').siblings().removeClass('on');
     });
-    //多个页面要用的瀑布流摆放（不需要连续加载）思路换
+    //多个页面要用的瀑布流摆放（不需要连续加载）
     window.onload=function(){
        cardWaterfall(); //必须等图片加载出来再处理
     };
@@ -19,7 +19,7 @@ $(function(){
             }else{
                 var minHeight = Math.min.apply(null,heightArr);
                 var minIndex = $.inArray(minHeight,heightArr);
-                /*if (minHeight > ($(".ts-container").height()-500)){ 
+                /*if (minHeight > ($(".ts-container").height()-500)){
                     var n = $(element).index(".ts-card");
                     $(element).remove();
                     //这个数字可能对写下一页有用
