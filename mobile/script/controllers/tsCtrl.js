@@ -42,7 +42,7 @@ lmapp.controller('tsCtrl',function($scope,scroll){
 
         $.ajax({
             type:"get",
-            url:"http://iwen.wiki/zhichenshop/shopping/bannerView/bannerview.php",
+            url:"https://iwen.wiki/zhichenshop/shopping/bannerView/bannerview.php",
             dataType:"json",
             success:function(data){
                 bannerAdapter(data);

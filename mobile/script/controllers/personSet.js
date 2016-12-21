@@ -1,6 +1,3 @@
-/**
- * Created by zbacao on 2016/8/16.
- */
 lmapp.controller("personSet",["$scope",function($scope){
         $scope.return=function(){
             window.history.back()
