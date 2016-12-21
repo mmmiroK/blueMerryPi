@@ -5,10 +5,8 @@ lmapp.controller("personSet",["$scope",function($scope){
         $scope.num=false;
         $scope.sexSet=function(){
             $scope.num=true;
-            console.log($scope.num);
          };
         $scope.down=function(){
             $scope.num=false;
-            console.log($scope.num);
         }
 }]);

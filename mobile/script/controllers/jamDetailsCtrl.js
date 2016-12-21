@@ -11,7 +11,6 @@ lmapp.controller('jamDetails',function($scope,imgscroll,contWH,picPreview){
     $scope.$on('ngRepeatFinished',function(){
         imgscroll.iscroll();
     });
-
     //调用预览上传图片服务
     $("#onloadPic").on("change",function(){
         picPreview.picPreview("onloadPic","preview");
