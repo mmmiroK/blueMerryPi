@@ -1,3 +1,4 @@
+/* Created by Administrator on 2016-08-13.*/
 //游记页的控制器
 lmapp.controller('travelNoteCtrl',function($scope,imgscroll){
     $.getJSON("json/travelNote.json",function(data){

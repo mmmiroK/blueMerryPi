@@ -22,7 +22,7 @@ lmapp.controller('tsdCtrl',function($scope,$routeParams){
                     player.pause();
                 }
             });
-        })
+        });
         $scope.array1 = {
             singertu:"image/tsdetail/singer.jpg",
             songName:"刚刚好",

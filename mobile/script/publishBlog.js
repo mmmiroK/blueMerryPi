@@ -1,3 +1,6 @@
+/**
+ * Created by Administrator on 2016-07-27.
+ */
 $(function() {
     //这里是富文本框里面的内容接口
     $("#publicBlog").on("click",function(){

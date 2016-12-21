@@ -1,5 +1,4 @@
 lmapp.controller('indexCtrl',['$scope','contWH',function($scope,contWH){
-
     var mySwiper1 = new Swiper('#swiper-container1', {
         pagination: '.swiper-pagination',              //分页器
         autoplay: 2000,                                //自动轮播

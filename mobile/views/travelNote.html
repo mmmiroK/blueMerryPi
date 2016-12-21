@@ -80,7 +80,7 @@
     <div class="wonder" ng-repeat="pl in pageData.comment track by $index">
         <div class="reply-cont" ng-click="secshow1=!secshow1">
             <div class="reply-user">
-                <img src="{{pl.user_icon}}" alt="">
+                <img ng-src="{{pl.user_icon}}" alt="">
                 <span class="name">{{pl.user_name}}</span>
                 <span class="time"><i></i><b>{{pl.comment_time}}</b></span>
             </div>

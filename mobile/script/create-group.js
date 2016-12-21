@@ -1,3 +1,6 @@
+/**
+ * Created by Administrator on 2016-08-12.
+ */
 $(function(){
     //调用
     //    setImagePreview方法参数为(上传的input-id,预览窗口的id)    切记为id

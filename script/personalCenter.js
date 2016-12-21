@@ -1,4 +1,6 @@
 $(window).load(function () {
+
+
 // 截图插件
     (function (factory) {
         if (typeof define === 'function' && define.amd) {

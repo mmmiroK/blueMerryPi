@@ -1,4 +1,11 @@
+/**
+ * Created by Administrator on 2016-08-03.
+ */
 $(function(){
+
+    /**
+     * Created by Administrator on 2016-07-27.
+     */
     $(function() {
 
         //点击输入框后默认文本消失 start
