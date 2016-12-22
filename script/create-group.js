@@ -1,11 +1,4 @@
-/**
- * Created by Administrator on 2016-08-06.
- */
-/**
- * Created by Administrator on 2016-07-27.
- */
 $(function() {
-
     //添加和移除标签  start
     (function(){
         var labelInput = $(".disp");
@@ -182,13 +175,12 @@ $(function() {
                 {
                     e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0 ? obj.ratio*=1.1 : obj.ratio*=0.9;
                     setBackground();
-                }
+                };
 
             obj.spinner.show();
             obj.image.onload = function() {
                 obj.spinner.hide();
                 setBackground();
-
                 el.bind('mousedown', imgMouseDown);
                 el.bind('mousemove', imgMouseMove);
                 $(window).bind('mouseup', imgMouseUp);
@@ -210,37 +202,34 @@ $(function() {
         thumbBox: '.thumbBox',
         spinner: '.spinner',
         imgSrc: 'indexImg/dog.jpg'
-    }
+    };
     var cropper = $('.imageBox').cropbox(options);
     $('#upload-file').on('change', function () {
         var reader = new FileReader();
         reader.onload = function (e) {
             options.imgSrc = e.target.result;
             cropper = $('.imageBox').cropbox(options);
-        }
+        };
         reader.readAsDataURL(this.files[0]);
         //this.files = [];         //临时性注释
-    })
+    });
     $('#btnCrop').on('click', function () {
         var img = cropper.getDataURL();
         $('.p_cropped').html('');
         $('.p_cropped').append('<img src="' + img + '" align="absmiddle" style="width:76px;height:76px;margin-top:4px;;box-shadow:0px 0px 12px #7E7E7E;" ><p>76px*76px</p>');
         $('.p_cropped').append('<img src="' + img + '" align="absmiddle" style="width:128px;margin-top:4px;height:128px;box-shadow:0px 0px 12px #7E7E7E;"><p>128px*128px</p>');
         $('.p_cropped').append('<img src="' + img + '" align="absmiddle" style="width:180px;margin-top:4px;height:180px;box-shadow:0px 0px 12px #7E7E7E;"><p>180px*180px</p>');
-    })
+    });
     $('#btnZoomIn').on('click', function () {
         cropper.zoomIn();
-    })
+    });
     $('#btnZoomOut').on('click', function () {
         cropper.zoomOut();
-    })
-
-
+    });
 
     var bodyScroll=function(event){
         event.preventDefault();
-    }
-
+    };
 
     //上传头像按钮的模拟点击  start
     $(".p-mengban").on("click",function(){

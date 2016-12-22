@@ -74,10 +74,9 @@ $(function(){
         musicplay();
     });
     //弹出框内的回复div事件
-    $(".ts-popcomment").on("click",function(){
+    $(".tj-comment").on("click",function(){
         if($(this).next('.ts-popreplay').length===0){
             var n = $(this).index(".ts-popcomment");
-            // var cloneReply = $(".ts-popreplay").eq(0).clone(ture);
             var cloneEle = $('<div class="ts-popreplay clearfix"><div class="tspop-tri"></div><div class="ts-replaycont"><input type="text"><a href="javascript:;">回复</a></div><i></i></div>');
             cloneEle.insertAfter($(this));
             $(this).next('.gs-popreplay').stop().slideDown(300);

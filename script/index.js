@@ -9,16 +9,6 @@ $(function(){
         loop: true                                                  //Ñ­»·
     });
 
-    function otherLunbo(swiperContainer){
-        var mySwiper2 = new Swiper(swiperContainer, {
-            pagination: '.swiper-pagination',
-            loop: true,
-            noSwiping: true,
-            autoplayDisableOnInteraction: false
-        });
-        mySwiper2.params.autoplay = false;
-    }
-
     var mySwiper2 = new Swiper('#swiper-container2', {
        pagination: '.swiper-pagination',
        loop: true,
